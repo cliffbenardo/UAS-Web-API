@@ -1,4 +1,3 @@
-### UAS-Web-API
 ### Repository ini digunakan sebagai bahan pengumpulan Ujian Akhir Semester
-### Cliff Benardo Wijaya
-### 03082180012
+### Nama  : Cliff Benardo Wijaya
+### NIM   : 03082180012
