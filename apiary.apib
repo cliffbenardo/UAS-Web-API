@@ -1,0 +1,95 @@
+FORMAT: 1A
+HOST: https://localhost/
+
+# Api Mobil Toyota Medan
+
+Api ini dapat digunakan untuk menampilkan produk mobil toyota.
+
+## Produk [/product]
+
+### Menampilkan seluruh produk [GET]
+
+Fungsi untuk menampilkan data produk mobil toyota.
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": "ID Produk",
+                "name": "Nama Produk",
+                "desc": "Deskripsi",
+                "price": "Harga",
+            },
+            
+            {
+                "id": "ID Produk",
+                "name": "Nama Produk",
+                "desc": "Deskripsi",
+                "price": "Harga",
+            },
+            
+            {
+                "id": "ID Produk",
+                "name": "Nama Produk",
+                "desc": "Deskripsi",
+                "price": "Harga",
+            }
+        ]
+
+### Menambah produk [POST]
+
+Fungsi untuk menambahkan data produk mobil toyota.
+
++ Request (application/json)
+
+        {
+                "id": "ID Produk",
+                "name": "Nama Produk",
+                "desc": "Deskripsi",
+                "price": "Harga",
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /product/2
+
+    + Body
+
+            {
+                "msg": "Produk berhasil ditambahkan.",
+                "status": success,
+            }
+
+### GET Produk ID [/get-product/id?=1]
+
+### Menampilkan produk berdasarkan ID [GET]
+
+Fungsi untuk menampilkan produk berdasarkan ID yang dipilih.
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": "ID Produk",
+                "name": "Nama Produk",
+                "desc": "Deskripsi",
+                "price": "Harga",
+            }
+        ]
+        
+### Hapus Produk [/delete-product/id?=1]
+
+### Menghapus produk berdasarkan ID [DELETE]
+
+Fungsi untuk menghapus produk berdasarkan ID yang dipilih.
+
++ Response 200 (application/json)
+
+        [
+            {
+                "msg": "Produk berhasil ditambahkan.",
+                "status": success,
+            }
+        ]
