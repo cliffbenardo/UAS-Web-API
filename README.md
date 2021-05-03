@@ -3,7 +3,7 @@
 #### NIM   : 03082180012
 ## CARA PENGGUNAAN
 #### 1. Jalankan XAMPP aktifkan Apache Server dan MySQL Database
-#### 2. Download repository, ekstrak rest pada folder xampp/htdocs/
+#### 2. Download repository, letakkan folder rest_ci pada folder xampp/htdocs/
 #### 3. Buat database dengan nama toyota. Import file toyota.sql ke dalam database.
 ## QUERY
 #### http://localhost/rest/rest_ci/index.php/v1/product
